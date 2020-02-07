@@ -36,7 +36,7 @@ nav div ul li .nav-link:hover {
     content: "";
     position: absolute;
     display: block;
-    background-color: rgb(16, 22, 48);
+    background-color: rgb(8, 19, 68);
     top: 0;
     left: 0;
     opacity: 0.4;
@@ -111,13 +111,40 @@ nav div ul li .nav-link:hover {
 }
 
 .analysis-bg-image{
-    position: relative;
-    background: linear-gradient(rgba(16, 22, 48,0.5), rgba(16, 22, 48,0.5)), url(../images/about/counter.png);
+    background: linear-gradient(rgba(8, 19, 68,0.6), rgba(8, 19, 68,0.6)), url(../images/about/counter.png);
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
 }
 .analysis{
     padding-top: 10%;
+}
+#btn-setting{
+    border-radius: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.bg-testimonial{
+    background: linear-gradient(rgba(8, 19, 68, 0.7), rgba(8, 19, 68, 0.7)),url(../images/banner/testmonial.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin: 3%;
+    color: white;
+    height: 63vh;
+    background-size: cover;
+}
+
+.quote-right-icon{
+    padding-top: 16%;
+    padding-bottom: 4%;
+}
+.testimonial-container{
+        margin: auto 24%;
+}
+.padding-para-testimonial{
+    padding-bottom: 2%;
+}
+.author-name-testimonial{
+    padding-top: 2%;
 }
