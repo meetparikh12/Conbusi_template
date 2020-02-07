@@ -58,6 +58,7 @@ nav div ul li .nav-link:hover {
     border-radius: 200px;
     padding: 5px 20px;
     font-size: 16px;
+    margin-bottom: 2%;
 
 }
 
@@ -84,4 +85,27 @@ nav div ul li .nav-link:hover {
 
 .border-bottom {
     border-bottom: 1px solid white;
+}
+
+.about-us-container{
+    margin: auto 13%;
+}
+.display-4{
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+ .card-box-design{
+
+  margin: 10px 0px;
+} 
+#about-button{
+    border-radius: 2000px;
+    padding: 0 10px;
+
+}
+.about-us{
+    margin-top: 7%;
+}
+.img-rounded{
+    border-radius: 3%;
 }
