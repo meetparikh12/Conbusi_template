@@ -102,6 +102,49 @@ nav div ul li .nav-link:hover {
     padding: 0 10px;
 
 }
+
+.border-design-1{
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(86, 151, 236),rgb(124, 215, 243));
+}
+
+.border-design-2 {
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(60, 238, 119), rgb(122, 245, 163));
+}
+
+.border-design-3 {
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(243, 153, 51), rgb(231, 159, 65));
+}
+
+.border-design-4 {
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(126, 34, 231), rgb(167, 130, 189));
+}
+
+.border-design-5 {
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(86, 151, 246), rgb(124, 215, 243));
+}
+
+.border-design-6 {
+
+    padding: 14%;
+    margin: 3% 0 8% 0;
+    background: linear-gradient(rgb(24, 98, 209), rgb(119, 40, 194));
+}
+
 .about-us{
     margin-top: 7%;
     margin-bottom: 7%;
@@ -120,6 +163,7 @@ nav div ul li .nav-link:hover {
 .analysis{
     padding-top: 13%;
 }
+
 #btn-setting{
     border-radius: 200px;
     margin-top: 6%;
@@ -151,8 +195,14 @@ nav div ul li .nav-link:hover {
 #form-btn-size{
     border-radius: 200px;
     margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
 }
+
+#form-border{
+    border: none;
+}
+
 .bg-contact{
     background: linear-gradient(rgba(8,19,68,0.7),rgba(8,19,68,0.7)),url(../images/banner/info_banner.png);
     background-repeat: no-repeat;
@@ -172,7 +222,7 @@ nav div ul li .nav-link:hover {
     border: 1px solid rgb(165, 160, 160);
     padding: 5%;
     margin: 2%;
-    border-radius: 200px;
+    border-radius: 50%;
 }
 
 .mycustom {
