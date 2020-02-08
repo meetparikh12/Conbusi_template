@@ -129,7 +129,7 @@ nav div ul li .nav-link:hover {
     background: linear-gradient(rgba(8, 19, 68, 0.7), rgba(8, 19, 68, 0.7)),url(../images/banner/testmonial.png);
     background-repeat: no-repeat;
     max-width: 100%;
-    margin: 3%;
+    margin: 5% auto;
     color: white;
     height: 63vh;
     background-size: cover;
@@ -147,4 +147,24 @@ nav div ul li .nav-link:hover {
 }
 .author-name-testimonial{
     padding-top: 2%;
+}
+#form-btn-size{
+    border-radius: 200px;
+    margin-top: 5%;
+    width: 100%;
+}
+.bg-contact{
+    background: linear-gradient(rgba(8,19,68,0.7),rgba(8,19,68,0.7)),url(../images/banner/info_banner.png);
+    background-repeat: no-repeat;
+    max-width:100%;
+    margin: 5% auto;
+    background-size: cover;
+    height: 53vh;
+}
+.contact-center{
+    padding: 13%;
+}
+#btn-contact{
+    border-radius: 200px;
+    width: 150px;
 }
