@@ -114,11 +114,11 @@ nav div ul li .nav-link:hover {
     background: linear-gradient(rgba(8, 19, 68,0.6), rgba(8, 19, 68,0.6)), url(../images/about/counter.png);
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 60vh;
+    height: 48vh;
     background-size: cover;
 }
 .analysis{
-    padding-top: 10%;
+    padding-top: 13%;
 }
 #btn-setting{
     border-radius: 200px;
@@ -131,7 +131,7 @@ nav div ul li .nav-link:hover {
     max-width: 100%;
     margin: 5% auto;
     color: white;
-    height: 63vh;
+    height: 61vh;
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ nav div ul li .nav-link:hover {
     background: linear-gradient(rgba(8,19,68,0.7),rgba(8,19,68,0.7)),url(../images/banner/info_banner.png);
     background-repeat: no-repeat;
     max-width:100%;
-    margin: 5% auto;
+    margin: 5% auto 7% auto;
     background-size: cover;
     height: 53vh;
 }
@@ -167,4 +167,39 @@ nav div ul li .nav-link:hover {
 #btn-contact{
     border-radius: 200px;
     width: 150px;
+}
+.border-icon{
+    border: 1px solid rgb(165, 160, 160);
+    padding: 5%;
+    margin: 2%;
+    border-radius: 200px;
+}
+
+.mycustom {
+    border: solid 1px rgb(207, 201, 201);
+    position: relative;
+    border-radius: 200px;
+    padding: 2%;
+}
+
+.mycustom input[type=text] {
+    border: none;
+    width: 100%;
+    padding-right: 123px;
+}
+
+.mycustom input:focus {
+        outline: none;
+    }
+
+.mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    z-index: 9;
+}
+#inputGroupPrepend2{
+    border-radius: 200px;
+    width: 90px;
 }
